@@ -1,0 +1,18 @@
+current directory: /home/bbmheeaj/final/login_p/login_p/blod_app/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+/home/bbmheeaj/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/bbmheeaj/final/login_p/login_p/blod_app/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241129-18769-cyorfb sitelibdir\=./.gem.20241129-18769-cyorfb clean
+
+current directory: /home/bbmheeaj/final/login_p/login_p/blod_app/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241129-18769-cyorfb sitelibdir\=./.gem.20241129-18769-cyorfb
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: /home/bbmheeaj/final/login_p/login_p/blod_app/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241129-18769-cyorfb sitelibdir\=./.gem.20241129-18769-cyorfb install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20241129-18769-cyorfb
+
+current directory: /home/bbmheeaj/final/login_p/login_p/blod_app/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241129-18769-cyorfb sitelibdir\=./.gem.20241129-18769-cyorfb clean

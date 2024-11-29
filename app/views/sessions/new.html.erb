@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Login Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-cover bg-center h-screen" style="background-image: url('https://i.pinimg.com/736x/4d/cb/43/4dcb438b80c4b6224d6c3c8d834a0786.jpg');">
+    <!-- Flexbox to center the login form -->
+    <div class="flex items-center justify-center h-full">
+        <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-sm">
+            <h1 class="text-2xl font-bold mb-6 text-center">‎⊹ ᮫࣭  ᴀɪᴇ ᴄᴏᴍᴍᴜɴɪᴛʏ 𓂃 ✿ </h1>
+            <form>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Enter your email">
+                    <p class="text-gray-500 text-xs mt-1">Use @bumail only</p>
+                </div>
+                <div class="mb-6 relative">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="password">Password</label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Password">
+                    <i class="fas fa-eye absolute right-3 top-10 cursor-pointer" id="togglePassword"></i>
+                </div>
+                <div class="flex items-center justify-center">
+                    <button class="bg-black text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                        Login
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        const togglePassword = document.querySelector('#togglePassword');
+        const password = document.querySelector('#password');
+
+        togglePassword.addEventListener('click', function () {
+            const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+            password.setAttribute('type', type);
+            this.classList.toggle('fa-eye-slash');
+        });
+    </script>
+</body>
+</html>

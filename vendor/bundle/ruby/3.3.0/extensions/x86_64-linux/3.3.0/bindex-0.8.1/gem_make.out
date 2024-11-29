@@ -1,0 +1,18 @@
+current directory: /home/bbmheeaj/final/login_p/login_p/blod_app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+/home/bbmheeaj/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/bbmheeaj/final/login_p/login_p/blod_app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241129-18769-d5rg9q sitelibdir\=./.gem.20241129-18769-d5rg9q clean
+
+current directory: /home/bbmheeaj/final/login_p/login_p/blod_app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241129-18769-d5rg9q sitelibdir\=./.gem.20241129-18769-d5rg9q
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/bbmheeaj/final/login_p/login_p/blod_app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241129-18769-d5rg9q sitelibdir\=./.gem.20241129-18769-d5rg9q install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20241129-18769-d5rg9q/skiptrace/internal
+
+current directory: /home/bbmheeaj/final/login_p/login_p/blod_app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241129-18769-d5rg9q sitelibdir\=./.gem.20241129-18769-d5rg9q clean
